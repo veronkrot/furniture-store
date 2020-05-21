@@ -12,6 +12,7 @@ export const Card = ({item, callback}) => {
                 <CardComponent.Title>{item.name}</CardComponent.Title>
                 <CardComponent.Text>
                     {item.description}
+                    <br />
                     <Price>{item.price}</Price>
                 </CardComponent.Text>
                 <Button variant="info" size="lg" block onClick={callback}>Add to Cart</Button>

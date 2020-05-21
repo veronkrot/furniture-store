@@ -10,8 +10,8 @@ export const ProductList = () => {
 
     const renderCard = (item) => {
         return(
-            <CardWrap>
-                <Card item={item} callback={addToCart} key={item.id}/>
+            <CardWrap key={item.id}>
+                <Card item={item} callback={addToCart} />
             </CardWrap>
             )
     }

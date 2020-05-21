@@ -22,6 +22,7 @@ margin: -6px 5px 0 5px;
 export const StoreName = styled.p`
 font-size: 20px;
 font-weight: bold;
+margin-top: 0;
 `;
 
 export const Nav = styled.div`
@@ -35,6 +36,7 @@ export const NavItem = styled.a`
 font-weight: bold;
 font-size: 18px;
 color: #0c1213;
+text-decoration: none;
 
 &:hover {
 cursor: pointer;

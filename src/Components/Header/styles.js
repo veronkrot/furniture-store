@@ -41,6 +41,5 @@ text-decoration: none;
 &:hover {
 cursor: pointer;
 text-decoration: underline;
-color: #53c0c7;
-  }
+color: #f3fcfc;}
 `;

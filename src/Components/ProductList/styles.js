@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const Price = styled.p`
+export const Price = styled.span`
 font-weight: bolder;
 `
 

@@ -1,7 +1,8 @@
 import React from "react";
+import {itemsInCart} from "../../../halpers/itemsInCart";
 
 export const CartPage = () => {
     return (
-        <div>Yo!</div>
+        <div>You have {itemsInCart.length} items in the cart!</div>
     )
 }
